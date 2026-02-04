@@ -6,7 +6,7 @@ document.querySelector("button").addEventListener("click", () => {
     alert("Please enter some data or content!");
     return;
   }
-  qrImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=+${qrText.value}`;
+  qrImage.src = `https://api.qrserver.com/v1/create-qr-code/?size=170x170&data=+${qrText.value}`;
   setTimeout(() => {
     qrText.value = "";
   }, 4000);
